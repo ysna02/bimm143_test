@@ -1,4 +1,2 @@
 # bimm143_test
-Classwork for [BIMM143] at UC San Diego
-Derek, it's a skill issue. 
-no, u. 
+Classwork for [BIMM143 F24] at UC San Diego
