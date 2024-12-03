@@ -1,0 +1,118 @@
+---
+title: "BLASTPDB"
+format: html
+---
+
+
+```{r}
+library(bio3d)
+
+fasta <- read.fasta("fasta.fas")
+fastab <- blast.pdb(fasta)
+fastamouse <- read.fasta("fastacopy.fas")
+fastabmouse <- blast.pdb(fastamouse)
+
+aa <- get.seq("2KQP_A")
+b <- blast.pdb(aa)
+attributes(b)
+head(b$hit.tbl)
+b$hit.tbl$evalue
+b$hit.tbl
+fastab$hit.tbl
+
+fastabmouse$hit.tbl
+attributes(fastab)
+'6B3Q_a', '2KQP_A', '6PXV_D', '6ZI8_A', '1EFE_A', '6U46_A', '8PJC_A', '8PI4_A', '8PI4_A', '8PJH_A', '5WDM_A', '2JZQ_A', '1ZEI_A', '6INS_E', '5WBT_A', '8PI6_A', '7JP3_A', '1SJU_A'
+'6B3Q_a', '2KQP_A', '6PXV_D', '6ZI8_A', '1EFE_A', '6U46_A', '8PJC_A', '8PI4_A', '8PJH_A', '1ZEI_A', '5WDM_A', '2JZQ_A', '6INS_E', '8PI6_A', '7JP3_A', '5WBT_A', '1SJU_A'
+```
+```{r}
+alignment <- read.fasta("alignment.fas")
+print(alignment)
+attributes(alignment)
+aligned_seq <- alignment$ali
+identity_matrix <- seqidentity(alignment$ali)
+avg_similarity <- rowMeans(identity_matrix)
+most_similar_index <- which.max(avg_similarity)
+most_similar_sequence <- alignment$id[most_similar_index]
+cat("Most similar sequence:", most_similar_sequence, "\n")
+```
+
+```{r}
+blast <- blast.pdb(alignment)
+hits <- plot(alignment)
+hitsmouse <- plot(fastabmouse)
+hits
+hits$pdb.id <- c('6B3Q_a', '2KQP_A', '6PXV_D', '6ZI8_A', '1EFE_A', '6U46_A', '8PJC_A', '8PI4_A', '8PI4_A', '8PJH_A', '5WDM_A', '2JZQ_A', '1ZEI_A', '6INS_E', '5WBT_A', '8PI6_A', '7JP3_A', '1SJU_A')
+hitsmouse$pdb.id <- c('6B3Q_a', '2KQP_A', '6PXV_D', '6ZI8_A', '1EFE_A', '6U46_A', '8PJC_A', '8PI4_A', '8PJH_A', '1ZEI_A', '5WDM_A', '2JZQ_A', '6INS_E', '8PI6_A', '7JP3_A', '5WBT_A', '1SJU_A')
+hits$pdb.id
+hitsmouse
+```
+```{r}
+head(hits$pdb.id)
+head(hitsmouse$pdb.id)
+```
+```{r}
+files <- get.pdb(hits$pdb.id, path = "pdbs", split = TRUE, gzip = T)
+filesmouse <- get.pdb(hitsmouse$pdb.id, path = "pdbsmouse", split = TRUE, gzip = T)
+```
+```{r}
+pdbss <- pdbaln(files, fit = TRUE, exefile = "msa")
+pdbssmouse <- pdbaln(filesmouse, fit = TRUE, exefile = "msa")
+```
+```{r}
+ids <- basename.pdb(pdbss$id)
+idsmouse <- basename.pdb(pdbssmouse$id)
+```
+```{r}
+plot(pdbss, labels = ids)
+plot(pdbssmouse, labels = idsmouse)
+```
+
+```{r}
+anno <- pdb.annotate(ids)
+annomouse <- pdb.annotate(idsmouse)
+anno
+unique(anno$source)
+attributes(anno)
+```
+
+```{r}
+pdbss
+```
+
+```{r}
+pc.xray <- pca(pdbss)
+plot(pc.xray)
+pc.xraymouse <- pca(pdbssmouse)
+plot(pc.xraymouse)
+```
+
+
+```{r}
+rd <- rmsd(pdbss)
+hc.rd <- hclust(dist(rd))
+grps.rd <- cutree(hc.rd, k=3)
+plot(pc.xray, 1:2, col = "gray50", bg = grps.rd, pch = 21, cex = 1)
+
+rdmouse <- rmsd(pdbssmouse)
+hc.rdmouse <- hclust(dist(rdmouse))
+grps.rdmouse <- cutree(hc.rdmouse, k=3)
+plot(pc.xraymouse, 1:2, col = "gray50", bg = grps.rdmouse, pch = 21, cex = 1)
+```
+
+```{r}
+pc1 <- mktrj(pc.xray, pc = 1, file = "pc_2.pdb")
+pc1mouse <- mktrj(pc.xraymouse, pc = 1, file = "pc_mouse.pdb")
+```
+
+
+
+
+
+
+
+
+
+
+
+

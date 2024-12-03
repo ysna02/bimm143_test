@@ -1,0 +1,39 @@
+---
+title: "GENEPROJECT"
+format: html
+---
+
+```{r}
+library(bio3d)
+results_dir <- "/Users/nayounsoo/Downloads/test_0f6e5"
+```
+```{r}
+pdb_files <- list.files(path = results_dir,
+                        pattern = "*.pdb",
+                        full.names = TRUE)
+basename(pdb_files)
+```
+```{r}
+pdbs <- pdbaln(pdb_files, fit = TRUE, exefile = "msa")
+pdbs
+```
+
+```{r}
+rd <- rmsd(pdbs, fit = T)
+range(rd)
+```
+```{r}
+library(pheatmap)
+
+colnames(rd) <- paste0("m",1:5)
+rownames(rd) <- paste0("m",1:5)
+pheatmap(rd)
+```
+
+```{r}
+attributes(pdbs)
+summary(pdbs)
+```
+
+
+

@@ -1,0 +1,34 @@
+---
+title: "question9"
+format: html
+---
+
+```{r}
+library(bio3d)
+alignment <- read.fasta("clustalo-I20241129-013703-0967-46638611-p1m.fa")
+alignment2 <- read.fasta("muscle-I20241129-014721-0323-81238682-p1m.fa")
+consensus <- consensus(alignment)
+consensus2 <- consensus(alignment2)
+
+blast <- pdb.annotate(consensus2$seq)
+```
+
+```{r}
+class(consensus)
+consensus <- as.character(consensus)
+blast <- pdb.annotate(consensus)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+---
+title: "Gene Project"
+author: "Youn Soo Na (PID:A17014731)"
+format: html
+---
+
+```{r}
+library(bio3d)
+sequences <- read.fasta("clustalo-I20241128-022158-0263-54935339-p1m.fa")
+idmatrix <- seqidentity(sequences)
+```
+```{r}
+png("heatmap.png", width = 700, height = 1000)
+heatmap(idmatrix, main = "Heatmap")
+dev.off()
+```
+
+```{r}
+heatmap(idmatrix, main = "Heatmap", margins = c(9,9), cexRow = 0.9, cexCol = 0.8)
+```
+
+
+> Q9.
+
+
+
+```{r}
+consensus <- consensus(sequences)
+```
+
+```{r}
+library(bio3d)
+single <- read.fasta("geneproject.fa")
+a <- get.seq("1A7F")
+
+pdb <- blast.pdb("1hsg")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

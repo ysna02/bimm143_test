@@ -1,0 +1,21 @@
+---
+title: "Lab 11"
+author: "Youn Soo Na (PID: A17014731)"
+format: html
+---
+
+
+```{r}
+# Change this for YOUR results dir name
+results_dir <- "test_40c6d" 
+```
+
+
+
+
+
+
+
+
+
+

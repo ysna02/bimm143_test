@@ -1,0 +1,26 @@
+---
+title: "Class 16"
+author: 'Youn Soo Na (PID: A17014731)'
+date: "2024-11-21"
+output: html_document
+---
+
+```{r}
+myresults <- read.table("myresults.tsv", sep = "\t", header = TRUE)
+```
+
+
+chmod 400 "bimm143_ysna.pem"
+
+
+ssh -i "bimm143_ysna.pem" ubuntu@ec2-54-213-156-103.us-west-2.compute.amazonaws.com
+
+
+
+
+
+
+
+
+
+
