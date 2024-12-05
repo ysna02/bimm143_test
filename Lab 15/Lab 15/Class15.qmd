@@ -1,7 +1,7 @@
 ---
 title: "Class 15: Pertussis mini-project"
 author: "Youn Soo Na (PID: A1704731)"
-format: pdf
+format: gfm
 ---
 
 
@@ -172,8 +172,8 @@ head(abdata)
 > Q. What are the different $dataset values in abdata and what do you notice about the number of rows for the most “recent” dataset?
 
 ```{r}
-str(ab)
-table(abdata$specimen_id)
+# str(ab)
+# table(abdata$specimen_id)
 ```
 There are 1497 specimen_ids each have 35 or 80 rows. 
 
