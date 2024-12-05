@@ -14,12 +14,12 @@ Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Di
 
 - Class 11: [Structural Bioinformatics: AlphaFold2](https://github.com/ysna02/bimm143_test/blob/main/Lab%2011/Lab%2011/lab11.md)
 
-- Class 12: [Questions 13 & 14](https://github.com/ysna02/bimm143_test/blob/main/Lab%2012/Q1314HW.pdf)
+- Class 12: [Questions 13 & 14](https://github.com/ysna02/bimm143_test/blob/main/Lab%2012/Lab%2012/Q1314HW.Rmd)
 
-- Class 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/ysna02/bimm143_test/blob/main/Lab%2013/Lab13(2).pdf)
+- Class 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/ysna02/bimm143_test/blob/main/Lab%2013/Lab%2013/Lab13.md)
 
-- Class 14: [RNA-Seq analysis mini-project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2014/lab14.pdf)
+- Class 14: [RNA-Seq analysis mini-project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2014/Lab%2014/lab14.md)
 
-- Class 15: [Pertussis Mini-Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2015/Class15(1).pdf)
+- Class 15: [Pertussis Mini-Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2015/Lab%2015/Class15.md)
 
-- Class 16: [Unix Command Review Homework](https://github.com/ysna02/bimm143_test/blob/main/Lab%2016/Lab16.pdf)
+- Class 16: [Unix Command Review Homework](https://github.com/ysna02/bimm143_test/blob/main/Lab%2016/Class%2016/Lab16.md)
