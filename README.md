@@ -14,7 +14,7 @@ Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Di
 
 - Class 11: [Structural Bioinformatics: AlphaFold2](https://github.com/ysna02/bimm143_test/blob/main/Lab%2011/Lab%2011/lab11.md)
 
-- Class 12: [Questions 13 & 14](https://github.com/ysna02/bimm143_test/blob/main/Lab%2012/Lab%2012/Q1314HW.Rmd)
+- Class 12: [Questions 13 & 14](https://github.com/ysna02/bimm143_test/blob/main/Lab%2012/Lab%2012/Lab12.md)
 
 - Class 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/ysna02/bimm143_test/blob/main/Lab%2013/Lab%2013/Lab13.md)
 
