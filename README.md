@@ -8,9 +8,9 @@ Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Di
 
 - Class 8: [Unsupervised Learning Mini-Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%208/Lab%208/LabWork8.md)
 
-- Class 9: [Structural Bioinformatics (pt1)](https://github.com/ysna02/bimm143_test/blob/main/lab%209/Lab9.pdf)
+- Class 9: [Structural Bioinformatics (pt1)](https://github.com/ysna02/bimm143_test/blob/main/lab%209/Lab%209/Lab9.md)
 
-- Class 10: [Halloween Mini Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2010/Lab%2010/HalloweenMiniProject.pdf)
+- Class 10: [Halloween Mini Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2010/Lab%2010/HalloweenMiniProject.md)
 
 - Class 11: [Structural Bioinformatics: AlphaFold2](https://github.com/ysna02/bimm143_test/blob/main/Lab%2011/Lab%2011/lab11.qmd)
 
