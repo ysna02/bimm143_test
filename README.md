@@ -1,24 +1,25 @@
 # bimm143_test
 Classwork for [BIMM143 F24] at UC San Diego
 
-Lab 6: [Class 6](https://github.com/ysna02/bimm143_test/blob/main/Lab%206/classLab6.pdf)
 
-Lab 7: [Class 7](https://github.com/ysna02/bimm143_test/blob/main/Lab%207/Lab7.pdf)
+- Class 6: [R functions and R packages from CRAN and BioConductor](https://github.com/ysna02/bimm143_test/blob/main/Lab%206/classLab6.pdf)
 
-Lab 8: [Class 8](https://github.com/ysna02/bimm143_test/blob/main/Lab%208/LabWork8(3).pdf)
+- Class 7: [Introduction to machine learning for Bioinformatics](https://github.com/ysna02/bimm143_test/blob/main/Lab%207/Lab7.pdf)
 
-Lab 9: [Class 9](https://github.com/ysna02/bimm143_test/blob/main/lab%209/Lab9.pdf)
+- Class 8: [Unsupervised Learning Mini-Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%208/LabWork8(3).pdf)
 
-Lab 10: [Halloween Mini Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2010/Lab%2010/HalloweenMiniProject.pdf)
+- Class 9: [Structural Bioinformatics (pt1)](https://github.com/ysna02/bimm143_test/blob/main/lab%209/Lab9.pdf)
 
-Lab 11: [Structural Bioinformatics: AlphaFold2](https://github.com/ysna02/bimm143_test/blob/main/Lab%2011/Lab%2011/lab11.qmd)
+- Class 10: [Halloween Mini Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2010/Lab%2010/HalloweenMiniProject.pdf)
 
-Lab 12: [Questions 13 & 14](https://github.com/ysna02/bimm143_test/blob/main/Lab%2012/Q1314HW.pdf)
+- Class 11: [Structural Bioinformatics: AlphaFold2](https://github.com/ysna02/bimm143_test/blob/main/Lab%2011/Lab%2011/lab11.qmd)
 
-Lab 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/ysna02/bimm143_test/blob/main/Lab%2013/Lab13(2).pdf)
+- Class 12: [Questions 13 & 14](https://github.com/ysna02/bimm143_test/blob/main/Lab%2012/Q1314HW.pdf)
 
-Lab 14: [RNA-Seq analysis mini-project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2014/lab14.pdf)
+- Class 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/ysna02/bimm143_test/blob/main/Lab%2013/Lab13(2).pdf)
 
-Lab 15: [Pertussis Mini-Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2015/Class15(1).pdf)
+- Class 14: [RNA-Seq analysis mini-project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2014/lab14.pdf)
 
-Lab 16: [Unix Command Review Homework](https://github.com/ysna02/bimm143_test/blob/main/Lab%2016/Lab16.pdf)
+- Class 15: [Pertussis Mini-Project](https://github.com/ysna02/bimm143_test/blob/main/Lab%2015/Class15(1).pdf)
+
+- Class 16: [Unix Command Review Homework](https://github.com/ysna02/bimm143_test/blob/main/Lab%2016/Lab16.pdf)
