@@ -1,7 +1,7 @@
 ---
 title: "Class 9: Structual Bioinformatics Pt. 1"
 author: "Youn Soo Na (PID: A17014731)"
-format: pdf
+format: gfm
 ---
 
 
