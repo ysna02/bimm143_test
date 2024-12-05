@@ -1,5 +1,5 @@
 # BIMM143: Introduction to Bioinformatics at UC San Diego
-Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Diego
+Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Diego from Professor Barry Grant
 
 
 - Class 6: [R functions and R packages from CRAN and BioConductor](https://github.com/ysna02/bimm143_test/blob/main/Lab%206/Lab6/HW6.md)
